@@ -88,10 +88,6 @@ flowchart LR
 
 <div align="center">
 
-![Cihangir's GitHub stats](https://github-readme-stats.vercel.app/api?username=Pharmacist65&show_icons=true&hide_border=true&rank_icon=github)
-
-![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Pharmacist65&layout=compact&hide_border=true)
-
 ![Contribution activity](https://github-readme-activity-graph.vercel.app/graph?username=Pharmacist65&theme=github-compact&hide_border=true&area=true&custom_title=Contribution%20Activity)
 
 </div>
