@@ -2,97 +2,79 @@
 
 # Cihangir Akman
 
-**Clinical pharmacist, founder, and product/software builder working across healthtech, beauty-tech, AI workflows, and mobile products.**
+### Clinical pharmacist and founder building careful health, beauty, AI, and mobile products.
 
 <p>
   <a href="https://cihangirakman.com"><img alt="Website" src="https://img.shields.io/badge/Website-cihangirakman.com-111827?style=for-the-badge&logo=googlechrome&logoColor=white"></a>
-  <a href="https://github.com/Pharmacist65"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-Pharmacist65-181717?style=for-the-badge&logo=github"></a>
   <a href="https://www.linkedin.com/in/cihangir-akman-612680267/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Cihangir%20Akman-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
   <a href="mailto:cihangir.akman@hotmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-cihangir.akman%40hotmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white"></a>
 </p>
 
-I build practical products where clinical sensitivity, mobile UX, and responsible AI boundaries need to work together. My favorite problems are messy, human, and worth making easier to review.
+I work at the intersection of clinical pharmacy, product design, mobile software, and responsible AI workflows. The goal is simple: build useful systems that are clear to review, careful with claims, and practical enough to ship.
 
 </div>
 
 ---
 
-## Current Focus
+## Profile Snapshot
 
-- Shipping mobile products with React Native, Expo, Firebase, and app store release workflows.
-- Building human-reviewed AI workflows for healthcare contexts with audit trails and clear limits.
-- Turning pharmacy, dermocosmetic, and consumer-health experience into useful product systems.
-- Keeping health and beauty-tech claims explainable, careful, and easy to challenge.
-
-## Personal Website
-
-[cihangirakman.com](https://cihangirakman.com) is my founder/product profile: a compact map of my products, credentials, health AI projects, and operating philosophy.
-
-## Published Products
-
-| Product | What it does | Links |
+| Clinical base | Product execution | AI boundary |
 | --- | --- | --- |
-| **Revealog** | Non-medical skincare diary for routines, progress photos, product records, notes, and long-term visual tracking. | [Website](https://revealog.com)<br>[App Store](https://apps.apple.com/tr/app/revealog/id6749480130)<br>[Google Play](https://play.google.com/store/apps/details?id=com.revealog.app) |
-| **Maphise** | Map-based social discovery product built around intent, context, place, and fit. | [App Store](https://apps.apple.com/app/id6763642475) |
+| MSc Clinical Pharmacy, pharmacy ownership, dermocosmetic and patient-facing practice. | iOS, Android, web, backend, release workflows, founder-led product strategy. | Human review, audit logs, synthetic data, explainability, and no fake certainty in health claims. |
 
-## Featured Healthtech Projects
+## Main Portfolio
 
-### Clinical Intake AI Workflow
+| Work | Role | Links |
+| --- | --- | --- |
+| **cihangirakman.com** | Personal founder/product site showing my products, credentials, health AI projects, and operating philosophy. | [Website](https://cihangirakman.com) |
+| **Revealog** | Non-medical skincare diary for routines, progress photos, product records, notes, and visual progress tracking. | [Website](https://revealog.com)<br>[App Store](https://apps.apple.com/tr/app/revealog/id6749480130)<br>[Google Play](https://play.google.com/store/apps/details?id=com.revealog.app) |
+| **Maphise** | Map-based social discovery product built around intent, place, context, and fit. | [App Store](https://apps.apple.com/app/id6763642475) |
+| **Clinical Intake AI Workflow** | Human-reviewed clinical intake workflow with review signals, priority flags, and audit logs. | [GitHub](https://github.com/Pharmacist65/clinical-intake-ai-workflow) |
+| **Regional Preventive Health Analytics** | Privacy-first public health analytics prototype using synthetic aggregate data. | [GitHub](https://github.com/Pharmacist65/regional-health-risk-ai)<br>[Demo](https://regional-health-risk-ai-ikqhu3ynfpabw2emgxg6br.streamlit.app/) |
 
-Human-in-the-loop workflow for organizing fictional clinical intake notes, review signals, priority flags, and audit logs.
+## Product System Map
 
-- Repo: [clinical-intake-ai-workflow](https://github.com/Pharmacist65/clinical-intake-ai-workflow)
-- Stack: ASP.NET Core, C#, React, TypeScript, Vite, SQLite, Entity Framework Core, xUnit, GitHub Actions.
-- Boundary: documentation support and review workflow modelling. No diagnosis, treatment, prescribing, autonomous triage, or patient-specific medical advice.
+```mermaid
+flowchart LR
+  A["Clinical pharmacy context"] --> B["Product judgment"]
+  B --> C["Mobile and web products"]
+  B --> D["Health AI workflows"]
+  C --> E["Revealog / Maphise / cihangirakman.com"]
+  D --> F["Human review / audit logs / synthetic data"]
+  E --> G["Shipped user-facing systems"]
+  F --> G
+```
 
-### Regional Preventive Health Analytics
+## Stack By Context
 
-Privacy-first analytics proof of concept using synthetic aggregate data for preventive planning signals.
-
-- Repo: [regional-health-risk-ai](https://github.com/Pharmacist65/regional-health-risk-ai)
-- Demo: [Streamlit app](https://regional-health-risk-ai-ikqhu3ynfpabw2emgxg6br.streamlit.app/)
-- Stack: Python, Streamlit, synthetic CSV data, validation checks, pytest, GitHub Actions.
-- Boundary: aggregate planning support and explainability. No patient-level records, medical advice, or clinical decision support.
-
-## Background
-
-| Area | Experience |
+| Context | Tools I use |
 | --- | --- |
-| Founder / Product | Founder and product lead at Sedecio Pharma A.S.; founder/product builder of Revealog; co-founder of Laurel Beauty Store. |
-| Pharmacy Practice | Pharmacy owner and specialist pharmacist at Defne Pharmacy, with patient-facing practice and dermocosmetic guidance experience. |
-| Software Delivery | Mobile, web, backend, AI workflow, automation, and public portfolio project delivery. |
+| Mobile products | React Native, Expo, TypeScript, JavaScript, app store release workflows |
+| Product infrastructure | Firebase for mobile/backend workflows and Firebase Hosting for web deployment; Supabase where database/auth/API workflows fit the product |
+| Backend and data | ASP.NET Core, C#, Python, Streamlit, SQLite, PostgreSQL |
+| Workflow | Git, GitHub Actions, Vite, testing, documentation, deployment checklists |
 
-## Education
+<p>
+  <img alt="React Native" src="https://img.shields.io/badge/React%20Native-20232A?style=flat-square&logo=react">
+  <img alt="Expo" src="https://img.shields.io/badge/Expo-000020?style=flat-square&logo=expo">
+  <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white">
+  <img alt="Firebase" src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=111111">
+  <img alt="Supabase" src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white">
+  <img alt="ASP.NET Core" src="https://img.shields.io/badge/ASP.NET%20Core-512BD4?style=flat-square&logo=dotnet&logoColor=white">
+  <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white">
+  <img alt="Streamlit" src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white">
+  <img alt="GitHub Actions" src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white">
+</p>
+
+## Education And Background
 
 - MSc Clinical Pharmacy - Marmara University
 - Bachelor of Pharmacy - Hacettepe University
 - AI Management & Product Strategy - VAO AI Program
 - Associate Degree in Computer Programming - Istanbul University AUZEF, ongoing
-
-## Tech Stack
-
-**Mobile and product**
-
-![React Native](https://img.shields.io/badge/React%20Native-20232A?style=flat-square&logo=react)
-![Expo](https://img.shields.io/badge/Expo-000020?style=flat-square&logo=expo)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=111111)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=111111)
-
-**Backend, data, and AI workflows**
-
-![C#](https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=dotnet&logoColor=white)
-![ASP.NET Core](https://img.shields.io/badge/ASP.NET%20Core-512BD4?style=flat-square&logo=dotnet&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
-
-**Workflow**
-
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
+- Founder / Product Lead - Sedecio Pharma A.S.
+- Pharmacy Owner / Specialist Pharmacist - Defne Pharmacy
+- Co-founder - Laurel Beauty Store
 
 ## Operating Principles
 
@@ -110,11 +92,12 @@ Privacy-first analytics proof of concept using synthetic aggregate data for prev
 
 ![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Pharmacist65&layout=compact&hide_border=true)
 
+![Contribution activity](https://github-readme-activity-graph.vercel.app/graph?username=Pharmacist65&theme=github-compact&hide_border=true&area=true&custom_title=Contribution%20Activity)
+
 </div>
 
 ## Connect
 
 - Website: [cihangirakman.com](https://cihangirakman.com)
-- GitHub: [github.com/Pharmacist65](https://github.com/Pharmacist65)
 - LinkedIn: [linkedin.com/in/cihangir-akman-612680267](https://www.linkedin.com/in/cihangir-akman-612680267/)
 - Email: [cihangir.akman@hotmail.com](mailto:cihangir.akman@hotmail.com)
