@@ -2,7 +2,7 @@
 
 # Cihangir Akman
 
-### Clinical pharmacist and founder building careful health, beauty, AI, mobile, and web products.
+### Clinical pharmacist and founder building health, beauty, AI, mobile, and web products.
 
 <p>
   <a href="https://cihangirakman.com"><img alt="Website" src="https://img.shields.io/badge/Website-cihangirakman.com-111827?style=for-the-badge&logo=googlechrome&logoColor=white"></a>
@@ -10,7 +10,7 @@
   <a href="mailto:cihangir.akman@hotmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-cihangir.akman%40hotmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white"></a>
 </p>
 
-I work at the intersection of clinical pharmacy, product design, mobile software, web products, and responsible AI workflows. The goal is simple: build useful systems that are clear to review, careful with claims, and practical enough to ship.
+I build at the intersection of clinical pharmacy, product strategy, mobile software, web systems, and responsible AI. My work focuses on production-minded products, clear decision boundaries, and systems that can be reviewed, operated, and improved with evidence.
 
 </div>
 
@@ -20,7 +20,7 @@ I work at the intersection of clinical pharmacy, product design, mobile software
 
 | Clinical base | Product execution | AI boundary |
 | --- | --- | --- |
-| MSc Clinical Pharmacy, pharmacy ownership, dermocosmetic and patient-facing practice. | iOS, Android, web, backend, release workflows, founder-led product strategy. | Human review, audit logs, synthetic data, explainability, and no fake certainty in health claims. |
+| MSc Clinical Pharmacy, pharmacy ownership, dermocosmetic and patient-facing practice. | Full-stack product delivery across iOS, Android, web, backend, release, and operational workflows. | Human review, audit logs, synthetic data, explainability, and disciplined health-claim boundaries. |
 
 ## Main Portfolio
 
@@ -31,8 +31,8 @@ I work at the intersection of clinical pharmacy, product design, mobile software
 | **Maphise** | Map-based social discovery product built around intent, place, context, and fit. | [App Store](https://apps.apple.com/app/id6763642475) |
 | **NOEMA** | Mobile reflection app built around AI mentor-style conversations, journaling, and personality context. | [Legal / Support](https://pharmacist65.github.io/noema-legal/)<br>[GitHub](https://github.com/Pharmacist65/noema-legal) |
 | **Clinical Intake AI Workflow** | Human-reviewed clinical intake workflow with review signals, priority flags, and audit logs. | [GitHub](https://github.com/Pharmacist65/clinical-intake-ai-workflow) |
-| **Regional Preventive Health Analytics** | Privacy-first public health analytics prototype using synthetic aggregate data. | [GitHub](https://github.com/Pharmacist65/regional-health-risk-ai)<br>[Demo](https://regional-health-risk-ai-ikqhu3ynfpabw2emgxg6br.streamlit.app/) |
-| **Private Web Builds** | Four to five private web products and founder-led prototypes kept in private GitHub repos while they are still being shaped. | Private repositories |
+| **Regional Preventive Health Analytics** | Privacy-first public health analytics system using synthetic aggregate data and explainable risk signals. | [GitHub](https://github.com/Pharmacist65/regional-health-risk-ai)<br>[Demo](https://regional-health-risk-ai-ikqhu3ynfpabw2emgxg6br.streamlit.app/) |
+| **Private Product Systems** | Web applications, admin tools, and product infrastructure developed in private repositories, spanning data modeling, auth, deployment, and operational workflows. | Private GitHub repos |
 
 ## Product System Map
 
@@ -43,7 +43,7 @@ flowchart LR
   B --> H["Web products"]
   B --> D["Health AI workflows"]
   C --> E["Revealog / Maphise / NOEMA"]
-  H --> I["cihangirakman.com / private web builds"]
+  H --> I["cihangirakman.com / private product systems"]
   D --> F["Human review / audit logs / synthetic data"]
   E --> G["Shipped user-facing systems"]
   I --> G
@@ -83,11 +83,11 @@ flowchart LR
 
 ## Operating Principles
 
-- Useful first. Impressive later.
-- Human review before healthcare automation.
-- No fake certainty in health or beauty claims.
-- Ship the smallest honest version, then iterate with evidence.
-- Make important decisions auditable, reviewable, and easy to explain.
+- Production value over surface area.
+- Human review where automation affects health-related decisions.
+- Disciplined claims in health, beauty, and AI products.
+- Evidence-led iteration after controlled releases.
+- Auditability, reviewability, and operational clarity by default.
 
 ## GitHub Activity
 
