@@ -2,7 +2,7 @@
 
 # Cihangir Akman
 
-### Clinical pharmacist and founder building careful health, beauty, AI, and mobile products.
+### Clinical pharmacist and founder building careful health, beauty, AI, mobile, and web products.
 
 <p>
   <a href="https://cihangirakman.com"><img alt="Website" src="https://img.shields.io/badge/Website-cihangirakman.com-111827?style=for-the-badge&logo=googlechrome&logoColor=white"></a>
@@ -10,7 +10,7 @@
   <a href="mailto:cihangir.akman@hotmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-cihangir.akman%40hotmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white"></a>
 </p>
 
-I work at the intersection of clinical pharmacy, product design, mobile software, and responsible AI workflows. The goal is simple: build useful systems that are clear to review, careful with claims, and practical enough to ship.
+I work at the intersection of clinical pharmacy, product design, mobile software, web products, and responsible AI workflows. The goal is simple: build useful systems that are clear to review, careful with claims, and practical enough to ship.
 
 </div>
 
@@ -29,19 +29,24 @@ I work at the intersection of clinical pharmacy, product design, mobile software
 | **cihangirakman.com** | Personal founder/product site showing my products, credentials, health AI projects, and operating philosophy. | [Website](https://cihangirakman.com) |
 | **Revealog** | Non-medical skincare diary for routines, progress photos, product records, notes, and visual progress tracking. | [Website](https://revealog.com)<br>[App Store](https://apps.apple.com/tr/app/revealog/id6749480130)<br>[Google Play](https://play.google.com/store/apps/details?id=com.revealog.app) |
 | **Maphise** | Map-based social discovery product built around intent, place, context, and fit. | [App Store](https://apps.apple.com/app/id6763642475) |
+| **NOEMA** | Mobile reflection app built around AI mentor-style conversations, journaling, and personality context. | [Legal / Support](https://pharmacist65.github.io/noema-legal/)<br>[GitHub](https://github.com/Pharmacist65/noema-legal) |
 | **Clinical Intake AI Workflow** | Human-reviewed clinical intake workflow with review signals, priority flags, and audit logs. | [GitHub](https://github.com/Pharmacist65/clinical-intake-ai-workflow) |
 | **Regional Preventive Health Analytics** | Privacy-first public health analytics prototype using synthetic aggregate data. | [GitHub](https://github.com/Pharmacist65/regional-health-risk-ai)<br>[Demo](https://regional-health-risk-ai-ikqhu3ynfpabw2emgxg6br.streamlit.app/) |
+| **Private Web Builds** | Four to five private web products and founder-led prototypes kept in private GitHub repos while they are still being shaped. | Private repositories |
 
 ## Product System Map
 
 ```mermaid
 flowchart LR
   A["Clinical pharmacy context"] --> B["Product judgment"]
-  B --> C["Mobile and web products"]
+  B --> C["Mobile products"]
+  B --> H["Web products"]
   B --> D["Health AI workflows"]
-  C --> E["Revealog / Maphise / cihangirakman.com"]
+  C --> E["Revealog / Maphise / NOEMA"]
+  H --> I["cihangirakman.com / private web builds"]
   D --> F["Human review / audit logs / synthetic data"]
   E --> G["Shipped user-facing systems"]
+  I --> G
   F --> G
 ```
 
@@ -50,7 +55,7 @@ flowchart LR
 | Context | Tools I use |
 | --- | --- |
 | Mobile products | React Native, Expo, TypeScript, JavaScript, app store release workflows |
-| Product infrastructure | Firebase for mobile/backend workflows and Firebase Hosting for web deployment; Supabase where database/auth/API workflows fit the product |
+| Product infrastructure | Firebase for mobile auth/backend/hosting workflows; Supabase for PostgreSQL-style database, auth, and API workflows when that architecture fits |
 | Backend and data | ASP.NET Core, C#, Python, Streamlit, SQLite, PostgreSQL |
 | Workflow | Git, GitHub Actions, Vite, testing, documentation, deployment checklists |
 
